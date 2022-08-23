@@ -24,7 +24,7 @@ export default function Controls({
   }
 
   function getMinutes() {
-    let newMinutes = prompt('Quantos minutos?');
+    let newMinutes = prompt('Altere o valor do cronômetro');
     if (!newMinutes) {
       return false;
     }
